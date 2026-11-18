@@ -1,0 +1,1304 @@
+{
+  "CIS": [
+    {
+      "id": "cis-ut1-001",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué factores intervienen en la configuración de la identidad individual y social?",
+      "options": [
+        "Factores internos, como genética y maduración, y factores externos, como la socialización.",
+        "Solo factores económicos y laborales.",
+        "Únicamente las decisiones conscientes de cada persona.",
+        "Exclusivamente la herencia genética."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Factores internos, como genética y maduración, y factores externos, como la socialización."
+    },
+    {
+      "id": "cis-ut1-002",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Por qué es importante conocer la dinámica social antes de diseñar una intervención?",
+      "options": [
+        "Porque permite imponer soluciones externas sin consultar a la comunidad.",
+        "Porque permite adaptar la intervención a las relaciones, normas y estructuras del contexto.",
+        "Porque todas las comunidades funcionan de la misma manera.",
+        "Porque evita tener que evaluar los resultados."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Porque permite adaptar la intervención a las relaciones, normas y estructuras del contexto."
+    },
+    {
+      "id": "cis-ut1-003",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Cuál es un motivo por el que una comunidad puede resistirse al cambio?",
+      "options": [
+        "La existencia de objetivos compartidos.",
+        "La participación activa de toda la población.",
+        "El miedo a lo desconocido o la percepción de pérdida de poder.",
+        "La ausencia total de relaciones sociales."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: El miedo a lo desconocido o la percepción de pérdida de poder."
+    },
+    {
+      "id": "cis-ut1-004",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué permite identificar el conocimiento de las relaciones dentro de una comunidad?",
+      "options": [
+        "Únicamente los conflictos individuales.",
+        "Solo las normas jurídicas estatales.",
+        "Exclusivamente los recursos económicos privados.",
+        "Redes de apoyo y recursos ya existentes."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Redes de apoyo y recursos ya existentes."
+    },
+    {
+      "id": "cis-ut1-005",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué caracteriza a una intervención social sostenible?",
+      "options": [
+        "Que se integra a largo plazo en la realidad de la comunidad.",
+        "Que depende siempre de recursos externos temporales.",
+        "Que se realiza una sola vez y no se revisa.",
+        "Que se diseña sin tener en cuenta el contexto."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Que se integra a largo plazo en la realidad de la comunidad."
+    },
+    {
+      "id": "cis-ut1-006",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué se entiende por trayectoria de vida?",
+      "options": [
+        "La lista de relaciones laborales de una persona.",
+        "La secuencia de acontecimientos vitales que se suceden a lo largo de la existencia.",
+        "El conjunto de normas que regulan una institución.",
+        "La posición económica que ocupa una persona en un momento concreto."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: La secuencia de acontecimientos vitales que se suceden a lo largo de la existencia."
+    },
+    {
+      "id": "cis-ut1-007",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Cuál de estos cambios ha alterado las trayectorias vitales tradicionales?",
+      "options": [
+        "La estabilidad laboral generalizada.",
+        "La existencia de un único modelo familiar.",
+        "La prolongación de las fases de formación.",
+        "La desaparición de la formación."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: La prolongación de las fases de formación."
+    },
+    {
+      "id": "cis-ut1-008",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué caracteriza la inestabilidad laboral descrita en la unidad?",
+      "options": [
+        "Empleo estable y continuidad garantizada.",
+        "Jubilación anticipada para toda la población.",
+        "Ausencia de cambios en el mercado laboral.",
+        "Empleos temporales, rotación constante y precariedad."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Empleos temporales, rotación constante y precariedad."
+    },
+    {
+      "id": "cis-ut1-009",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué autor se relaciona en la unidad con el concepto de modernidad líquida?",
+      "options": [
+        "Zygmunt Bauman.",
+        "Serge Moscovici.",
+        "Robert Castel.",
+        "Abraham Maslow."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Zygmunt Bauman."
+    },
+    {
+      "id": "cis-ut1-010",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "En la modernidad líquida, ¿cómo tienden a ser los vínculos sociales, laborales y afectivos?",
+      "options": [
+        "Independientes del contexto social.",
+        "Frágiles, flexibles y cambiantes.",
+        "Permanentes, rígidos e invariables.",
+        "Exclusivamente familiares."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Frágiles, flexibles y cambiantes."
+    },
+    {
+      "id": "cis-ut1-011",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué puede provocar una ruptura en las trayectorias familiares, laborales o residenciales?",
+      "options": [
+        "La estabilidad económica inmediata.",
+        "La eliminación de la necesidad de apoyo social.",
+        "Situaciones de riesgo social, vulnerabilidad e inseguridad.",
+        "La desaparición automática de cualquier desigualdad."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Situaciones de riesgo social, vulnerabilidad e inseguridad."
+    },
+    {
+      "id": "cis-ut1-012",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la resiliencia?",
+      "options": [
+        "La capacidad de evitar cualquier cambio social.",
+        "La obligación de resolver los problemas sin ayuda.",
+        "La adaptación pasiva a cualquier situación injusta.",
+        "La capacidad de personas y comunidades para sobreponerse a adversidades y reconstruir proyectos de vida."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: La capacidad de personas y comunidades para sobreponerse a adversidades y reconstruir proyectos de vida."
+    },
+    {
+      "id": "cis-ut1-013",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "Según la unidad, ¿de qué depende también la resiliencia?",
+      "options": [
+        "De factores colectivos y estructurales, como redes de apoyo, políticas sociales y acceso a recursos.",
+        "Únicamente de la voluntad individual.",
+        "Solo de la edad de la persona.",
+        "Exclusivamente del nivel de estudios."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: De factores colectivos y estructurales, como redes de apoyo, políticas sociales y acceso a recursos."
+    },
+    {
+      "id": "cis-ut1-014",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la socialización?",
+      "options": [
+        "La adaptación biológica al medio natural.",
+        "El proceso por el que incorporamos normas, valores, creencias y comportamientos para desenvolvernos en sociedad.",
+        "El proceso por el que una persona cambia de empleo.",
+        "La adquisición exclusiva de conocimientos académicos."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: El proceso por el que incorporamos normas, valores, creencias y comportamientos para desenvolvernos en sociedad."
+    },
+    {
+      "id": "cis-ut1-015",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Cuál es una función de la socialización?",
+      "options": [
+        "Impedir que la sociedad evolucione.",
+        "Sustituir las relaciones personales por normas escritas.",
+        "Transmitir valores y normas que favorecen la convivencia.",
+        "Eliminar todas las diferencias individuales."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Transmitir valores y normas que favorecen la convivencia."
+    },
+    {
+      "id": "cis-ut1-016",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué agente constituye la primera instancia de referencia en la socialización?",
+      "options": [
+        "Los medios de comunicación.",
+        "El grupo de trabajo.",
+        "Las asociaciones profesionales.",
+        "La familia."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: La familia."
+    },
+    {
+      "id": "cis-ut1-017",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué agente de socialización tiene gran influencia durante la adolescencia?",
+      "options": [
+        "Los grupos de iguales.",
+        "Las instituciones judiciales.",
+        "Las empresas multinacionales.",
+        "Los organismos internacionales."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Los grupos de iguales."
+    },
+    {
+      "id": "cis-ut1-018",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Dónde se produce principalmente la socialización primaria?",
+      "options": [
+        "En la edad adulta y solo en asociaciones.",
+        "En la infancia, principalmente en la familia.",
+        "Al incorporarse por primera vez al trabajo.",
+        "Durante la reinserción social exclusivamente."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: En la infancia, principalmente en la familia."
+    },
+    {
+      "id": "cis-ut1-019",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué caracteriza a la socialización secundaria?",
+      "options": [
+        "La adaptación exclusiva tras una migración.",
+        "La transmisión genética de características.",
+        "La incorporación a instituciones donde se aprenden nuevos roles y normas.",
+        "La adquisición de los primeros valores básicos en la infancia."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: La incorporación a instituciones donde se aprenden nuevos roles y normas."
+    },
+    {
+      "id": "cis-ut1-020",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿En qué situación puede aparecer la socialización terciaria?",
+      "options": [
+        "En el aprendizaje inicial del lenguaje durante la primera infancia.",
+        "Al aprender las primeras normas familiares.",
+        "En cualquier actividad biológica involuntaria.",
+        "En procesos de migración, reinserción social o adaptación a contextos de vulnerabilidad."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: En procesos de migración, reinserción social o adaptación a contextos de vulnerabilidad."
+    },
+    {
+      "id": "cis-ut1-021",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "La identidad personal, según la unidad, ¿es estática o dinámica?",
+      "options": [
+        "Es dinámica y se construye mediante experiencias, interacciones y referentes sociales.",
+        "Es estática y queda fijada al nacer.",
+        "Depende únicamente de la nacionalidad.",
+        "No guarda relación con la socialización."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Es dinámica y se construye mediante experiencias, interacciones y referentes sociales."
+    },
+    {
+      "id": "cis-ut1-022",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Con qué dimensión de la identidad se relaciona lo que pensamos sobre nosotros mismos?",
+      "options": [
+        "Rol social.",
+        "Autoconcepto.",
+        "Autoestima.",
+        "Conducta."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Autoconcepto."
+    },
+    {
+      "id": "cis-ut1-023",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Con qué dimensión se relaciona lo que sentimos respecto a nosotros mismos?",
+      "options": [
+        "Estatus.",
+        "Norma social.",
+        "Autoestima.",
+        "Autoconcepto."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Autoestima."
+    },
+    {
+      "id": "cis-ut1-024",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué elemento de la identidad se vincula con lo que hacemos?",
+      "options": [
+        "El autoconcepto.",
+        "La autoestima.",
+        "La clase social.",
+        "La conducta."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: La conducta."
+    },
+    {
+      "id": "cis-ut1-025",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la conducta?",
+      "options": [
+        "La manera en que una persona se comporta en un contexto concreto.",
+        "La disposición interna que orienta una actuación.",
+        "Una creencia compartida sobre un grupo.",
+        "La posición que ocupa una persona en la sociedad."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: La manera en que una persona se comporta en un contexto concreto."
+    },
+    {
+      "id": "cis-ut1-026",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Cuál es el componente cognitivo de la conducta?",
+      "options": [
+        "Las normas institucionales.",
+        "Las creencias y los conocimientos.",
+        "Los sentimientos y las emociones.",
+        "Los comportamientos observables."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Las creencias y los conocimientos."
+    },
+    {
+      "id": "cis-ut1-027",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Cuál es el componente afectivo de la conducta?",
+      "options": [
+        "Los comportamientos observables.",
+        "Las posiciones sociales.",
+        "Los sentimientos y las emociones.",
+        "Las creencias y conocimientos."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Los sentimientos y las emociones."
+    },
+    {
+      "id": "cis-ut1-028",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Cuál es el componente conductual?",
+      "options": [
+        "Las emociones internas.",
+        "Las creencias personales.",
+        "Los valores de una institución.",
+        "Los comportamientos observables."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Los comportamientos observables."
+    },
+    {
+      "id": "cis-ut1-029",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es una actitud?",
+      "options": [
+        "Una disposición interna que modula la conducta y orienta hacia la aceptación o el rechazo.",
+        "Una conducta observable y repetible en cualquier contexto.",
+        "Una norma jurídica que regula a toda la sociedad.",
+        "Una posición dentro de la estructura social."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Una disposición interna que modula la conducta y orienta hacia la aceptación o el rechazo."
+    },
+    {
+      "id": "cis-ut1-030",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es un estereotipo?",
+      "options": [
+        "Una relación de cooperación entre grupos.",
+        "Un conjunto de creencias e ideas preconcebidas compartidas sobre un grupo.",
+        "Una valoración emocional anticipada hacia un grupo.",
+        "Un comportamiento de exclusión o trato desigual."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Un conjunto de creencias e ideas preconcebidas compartidas sobre un grupo."
+    },
+    {
+      "id": "cis-ut1-031",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿En qué componente se centran principalmente los estereotipos?",
+      "options": [
+        "En el componente conductual.",
+        "En el componente fisiológico.",
+        "En el componente cognitivo.",
+        "En el componente afectivo."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: En el componente cognitivo."
+    },
+    {
+      "id": "cis-ut1-032",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué caracteriza a los estereotipos?",
+      "options": [
+        "Se basan siempre en el conocimiento individual de cada persona.",
+        "Desaparecen automáticamente al conocer a alguien.",
+        "Son exclusivamente normas jurídicas.",
+        "Generalizan y pueden resistirse al cambio incluso ante pruebas en contra."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Generalizan y pueden resistirse al cambio incluso ante pruebas en contra."
+    },
+    {
+      "id": "cis-ut1-033",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es un prejuicio?",
+      "options": [
+        "Una valoración emocional anticipada hacia determinadas personas o grupos.",
+        "Una idea descriptiva sin componente emocional.",
+        "Una conducta de exclusión ya realizada.",
+        "Una norma formal de convivencia."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Una valoración emocional anticipada hacia determinadas personas o grupos."
+    },
+    {
+      "id": "cis-ut1-034",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la discriminación?",
+      "options": [
+        "Una característica inevitable de la diversidad cultural.",
+        "La traducción conductual del prejuicio mediante exclusión, rechazo o trato desigual.",
+        "Una creencia generalizada sobre un colectivo.",
+        "Una valoración emocional que todavía no se manifiesta en acciones."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: La traducción conductual del prejuicio mediante exclusión, rechazo o trato desigual."
+    },
+    {
+      "id": "cis-ut1-035",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "En la secuencia «pienso, siento y actúo», ¿qué concepto corresponde a «pienso»?",
+      "options": [
+        "Discriminación.",
+        "Cooperación.",
+        "Estereotipo.",
+        "Prejuicio."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Estereotipo."
+    },
+    {
+      "id": "cis-ut1-036",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "En esa misma secuencia, ¿qué concepto corresponde a «siento rechazo»?",
+      "options": [
+        "Estereotipo.",
+        "Discriminación.",
+        "Socialización.",
+        "Prejuicio."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Prejuicio."
+    },
+    {
+      "id": "cis-ut1-037",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué concepto corresponde a excluir a alguien mediante una actuación concreta?",
+      "options": [
+        "Discriminación.",
+        "Estereotipo.",
+        "Autoconcepto.",
+        "Persuasión."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Discriminación."
+    },
+    {
+      "id": "cis-ut1-038",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué debe promover la intervención social frente a estereotipos y prejuicios?",
+      "options": [
+        "La aplicación de etiquetas generales a las personas.",
+        "Actitudes inclusivas, respeto a la diversidad y mirada crítica.",
+        "La separación permanente de los grupos.",
+        "La reproducción de roles tradicionales."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Actitudes inclusivas, respeto a la diversidad y mirada crítica."
+    },
+    {
+      "id": "cis-ut1-039",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la estructura social?",
+      "options": [
+        "La suma de los recursos económicos de un territorio.",
+        "La ausencia de organización en una sociedad.",
+        "El conjunto de relaciones, roles, instituciones y normas que sostienen la vida colectiva.",
+        "El conjunto de cambios de conducta de una sola persona."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: El conjunto de relaciones, roles, instituciones y normas que sostienen la vida colectiva."
+    },
+    {
+      "id": "cis-ut1-040",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué se entiende por estatus social?",
+      "options": [
+        "El comportamiento esperado asociado a una posición.",
+        "La capacidad de convencer mediante argumentos.",
+        "La modificación de las leyes de una sociedad.",
+        "La posición que ocupa una persona en la estructura social."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: La posición que ocupa una persona en la estructura social."
+    },
+    {
+      "id": "cis-ut1-041",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué son los roles sociales?",
+      "options": [
+        "Los comportamientos, responsabilidades y expectativas asociados a un estatus.",
+        "Las posiciones económicas de las personas.",
+        "Los grupos que comparten una afición.",
+        "Las instituciones que regulan la economía."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Los comportamientos, responsabilidades y expectativas asociados a un estatus."
+    },
+    {
+      "id": "cis-ut1-042",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Cuál es un ejemplo de grupo primario?",
+      "options": [
+        "Una asociación profesional con relaciones exclusivamente formales.",
+        "La familia o el grupo de amistades.",
+        "Una gran administración pública.",
+        "Un organismo internacional."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: La familia o el grupo de amistades."
+    },
+    {
+      "id": "cis-ut1-043",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué son las relaciones de poder?",
+      "options": [
+        "Los vínculos afectivos entre amistades.",
+        "Los cambios de posición en la jerarquía social.",
+        "La capacidad de influir sobre otras personas, de forma legitimada o informal.",
+        "Las normas que regulan únicamente la vida familiar."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: La capacidad de influir sobre otras personas, de forma legitimada o informal."
+    },
+    {
+      "id": "cis-ut1-044",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué diferencia hay entre estructura social y orden social?",
+      "options": [
+        "Son dos términos idénticos que significan ausencia de normas.",
+        "El orden social es el conjunto de roles y la estructura es una sanción.",
+        "La estructura solo se refiere a leyes y el orden solo a economía.",
+        "La estructura es el marco organizativo; el orden social es el equilibrio que sostiene la convivencia."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: La estructura es el marco organizativo; el orden social es el equilibrio que sostiene la convivencia."
+    },
+    {
+      "id": "cis-ut1-045",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué estudia la dinámica social?",
+      "options": [
+        "Los procesos de interacción entre personas y grupos y su relación con las estructuras sociales.",
+        "La evolución biológica de los individuos.",
+        "Únicamente las leyes de un país.",
+        "La conducta aislada sin relación con el entorno."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Los procesos de interacción entre personas y grupos y su relación con las estructuras sociales."
+    },
+    {
+      "id": "cis-ut1-046",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la cooperación dentro de la dinámica social?",
+      "options": [
+        "La transmisión de prácticas entre culturas.",
+        "La acción conjunta para alcanzar objetivos comunes.",
+        "La oposición entre intereses contrapuestos.",
+        "El cambio de posición en la jerarquía social."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: La acción conjunta para alcanzar objetivos comunes."
+    },
+    {
+      "id": "cis-ut1-047",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la movilidad social?",
+      "options": [
+        "La transmisión de valores entre generaciones.",
+        "La adaptación a una nueva tecnología.",
+        "El cambio de posición de una persona o grupo en la jerarquía social, ascendente o descendente.",
+        "La migración física entre dos países únicamente."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: El cambio de posición de una persona o grupo en la jerarquía social, ascendente o descendente."
+    },
+    {
+      "id": "cis-ut1-048",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la conformidad como forma de influencia social?",
+      "options": [
+        "Actuar porque una autoridad da una orden.",
+        "Cambiar de opinión mediante argumentos o emociones.",
+        "Una minoría que transforma la opinión mayoritaria.",
+        "Cambiar el comportamiento o pensamiento para parecerse al grupo y encajar."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Cambiar el comportamiento o pensamiento para parecerse al grupo y encajar."
+    },
+    {
+      "id": "cis-ut1-049",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la obediencia?",
+      "options": [
+        "Realizar una acción porque una persona con autoridad la pide u ordena.",
+        "Adaptarse a lo que hace la mayoría para encajar.",
+        "Convencer mediante argumentos.",
+        "Difundir costumbres de una cultura a otra."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Realizar una acción porque una persona con autoridad la pide u ordena."
+    },
+    {
+      "id": "cis-ut1-050",
+      "unit": "Unidad 1 · La dinámica social",
+      "question": "¿Qué es la persuasión?",
+      "options": [
+        "Cambiar de posición en la estructura social.",
+        "Intentar cambiar lo que alguien piensa o hace mediante argumentos, información o emociones.",
+        "Cumplir una orden por respeto a la autoridad.",
+        "Imitar al grupo para sentirse integrado."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Intentar cambiar lo que alguien piensa o hace mediante argumentos, información o emociones."
+    },
+    {
+      "id": "cis-ut2-001",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué es la exclusión social?",
+      "options": [
+        "El acceso a recursos en espacios separados.",
+        "La incorporación a entornos comunes con adaptación individual.",
+        "La modificación del entorno para garantizar participación.",
+        "La situación en la que una persona o grupo queda fuera de recursos, oportunidades y espacios básicos de participación."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: La situación en la que una persona o grupo queda fuera de recursos, oportunidades y espacios básicos de participación."
+    },
+    {
+      "id": "cis-ut2-002",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué caracteriza a la segregación?",
+      "options": [
+        "El acceso a determinados recursos en espacios separados o diferenciados del resto de la población.",
+        "La ausencia total de acceso a cualquier recurso.",
+        "La adaptación de los entornos para todas las personas.",
+        "La participación plena en igualdad de condiciones."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: El acceso a determinados recursos en espacios separados o diferenciados del resto de la población."
+    },
+    {
+      "id": "cis-ut2-003",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "En la integración, ¿quién debe adaptarse principalmente a las condiciones ya establecidas?",
+      "options": [
+        "La comunidad, que suprime toda estructura.",
+        "La persona o grupo que se incorpora al entorno común.",
+        "El sistema, que elimina todas las barreras.",
+        "La institución, que cambia por completo sus normas."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: La persona o grupo que se incorpora al entorno común."
+    },
+    {
+      "id": "cis-ut2-004",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué define el enfoque de inclusión?",
+      "options": [
+        "Se ofrece acceso en espacios separados.",
+        "Se limita el acceso a recursos básicos.",
+        "El sistema se modifica para eliminar barreras y crear oportunidades de participación plena.",
+        "La persona debe adaptarse a estructuras ya diseñadas."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: El sistema se modifica para eliminar barreras y crear oportunidades de participación plena."
+    },
+    {
+      "id": "cis-ut2-005",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué diferencia fundamental existe entre integración e inclusión?",
+      "options": [
+        "En la inclusión la persona queda fuera de los recursos.",
+        "En la integración se prohíbe acceder a espacios comunes.",
+        "No existe ninguna diferencia entre ambos conceptos.",
+        "En la integración se adapta la persona al sistema; en la inclusión se transforman los entornos."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: En la integración se adapta la persona al sistema; en la inclusión se transforman los entornos."
+    },
+    {
+      "id": "cis-ut2-006",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué autor se asocia al modelo de zonas sociales explicado en la unidad?",
+      "options": [
+        "Robert Castel.",
+        "Zygmunt Bauman.",
+        "Serge Moscovici.",
+        "Abraham Maslow."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Robert Castel."
+    },
+    {
+      "id": "cis-ut2-007",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué caracteriza a la zona de inclusión en el modelo de Castel?",
+      "options": [
+        "Ausencia total de acceso a derechos.",
+        "Empleo estable, seguridad económica, redes consolidadas y participación social.",
+        "Desempleo crónico, vínculos débiles y participación limitada.",
+        "Empleo precario e ingresos inestables."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Empleo estable, seguridad económica, redes consolidadas y participación social."
+    },
+    {
+      "id": "cis-ut2-008",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué caracteriza a la zona de vulnerabilidad o riesgo?",
+      "options": [
+        "Desempleo crónico y ruptura completa del vínculo social en todos los casos.",
+        "Participación plena y seguridad económica garantizada.",
+        "Empleo precario o temporal, ingresos inestables y redes sociales frágiles.",
+        "Empleo estable y redes consolidadas."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Empleo precario o temporal, ingresos inestables y redes sociales frágiles."
+    },
+    {
+      "id": "cis-ut2-009",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué caracteriza a la zona de exclusión?",
+      "options": [
+        "Empleo estable y seguridad económica.",
+        "Ingresos estables y redes sólidas.",
+        "Acceso pleno a recursos y oportunidades.",
+        "Desempleo crónico, dependencia parcial de ayudas y vínculos sociales débiles."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Desempleo crónico, dependencia parcial de ayudas y vínculos sociales débiles."
+    },
+    {
+      "id": "cis-ut2-010",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿La exclusión social es un estado fijo e irreversible según el modelo de Castel?",
+      "options": [
+        "No, es un proceso dinámico y las personas pueden transitar entre zonas.",
+        "Sí, una vez que se produce nunca puede cambiar.",
+        "Sí, depende exclusivamente de la edad.",
+        "No, porque solo existe como categoría administrativa."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: No, es un proceso dinámico y las personas pueden transitar entre zonas."
+    },
+    {
+      "id": "cis-ut2-011",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué es un eje de desigualdad?",
+      "options": [
+        "Un indicador económico aislado.",
+        "Un aspecto transversal que puede aumentar la vulnerabilidad o el riesgo de exclusión social.",
+        "Un recurso que elimina por sí mismo todas las desigualdades.",
+        "Una demanda explícita dirigida a servicios sociales."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Un aspecto transversal que puede aumentar la vulnerabilidad o el riesgo de exclusión social."
+    },
+    {
+      "id": "cis-ut2-012",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Cuál de los siguientes aparece como eje de desigualdad en la unidad?",
+      "options": [
+        "Tipo de música preferida.",
+        "Estilo de ocio individual.",
+        "Clase social.",
+        "Color favorito."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Clase social."
+    },
+    {
+      "id": "cis-ut2-013",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Cómo puede influir la clase social en la desigualdad?",
+      "options": [
+        "Determina únicamente las preferencias culturales.",
+        "No tiene relación con la participación social.",
+        "Elimina las barreras de acceso a servicios.",
+        "La distribución desigual de ingresos y patrimonio afecta a la calidad de vida y a las oportunidades."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: La distribución desigual de ingresos y patrimonio afecta a la calidad de vida y a las oportunidades."
+    },
+    {
+      "id": "cis-ut2-014",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué barreras se relacionan con el eje de discapacidad?",
+      "options": [
+        "Barreras físicas y comunicativas que dificultan la participación plena.",
+        "Únicamente diferencias de ingresos.",
+        "Solo barreras derivadas de la edad.",
+        "Exclusivamente dificultades de acceso a la vivienda por ubicación rural."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Barreras físicas y comunicativas que dificultan la participación plena."
+    },
+    {
+      "id": "cis-ut2-015",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué situación ejemplifica el eje territorio o lugar de residencia?",
+      "options": [
+        "Participar en una asociación del barrio.",
+        "Vivir en una zona con escasos servicios públicos que limita las oportunidades.",
+        "Tener una red de amistades amplia.",
+        "Disponer de ingresos estables."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Vivir en una zona con escasos servicios públicos que limita las oportunidades."
+    },
+    {
+      "id": "cis-ut2-016",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué es la interseccionalidad?",
+      "options": [
+        "La separación de cada eje para estudiarlo sin relacionarlo con otros.",
+        "La eliminación de las diferencias sociales mediante una norma única.",
+        "El enfoque que analiza cómo varios ejes de desigualdad se entrecruzan y generan experiencias específicas de vulnerabilidad.",
+        "La suma matemática de indicadores económicos."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: El enfoque que analiza cómo varios ejes de desigualdad se entrecruzan y generan experiencias específicas de vulnerabilidad."
+    },
+    {
+      "id": "cis-ut2-017",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "Una mujer migrante con discapacidad puede experimentar una situación específica de desigualdad. ¿Qué concepto permite analizarla?",
+      "options": [
+        "Segregación residencial.",
+        "Demanda explícita.",
+        "Movilidad social ascendente.",
+        "Interseccionalidad."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Interseccionalidad."
+    },
+    {
+      "id": "cis-ut2-018",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué son los factores de riesgo?",
+      "options": [
+        "Condiciones que aumentan la probabilidad de que una persona sufra exclusión social.",
+        "Elementos que reducen el riesgo o amortiguan sus efectos.",
+        "Medidas que describen únicamente los resultados de un programa.",
+        "Recursos que siempre garantizan inclusión."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Condiciones que aumentan la probabilidad de que una persona sufra exclusión social."
+    },
+    {
+      "id": "cis-ut2-019",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué son los factores de protección?",
+      "options": [
+        "Demandas que no han sido formuladas.",
+        "Elementos que reducen el riesgo de exclusión o amortiguan sus efectos.",
+        "Condiciones que aumentan la probabilidad de exclusión.",
+        "Datos que describen la situación sin influir en ella."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Elementos que reducen el riesgo de exclusión o amortiguan sus efectos."
+    },
+    {
+      "id": "cis-ut2-020",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Para qué sirven los indicadores?",
+      "options": [
+        "Para eliminar la necesidad de recoger información.",
+        "Para formular demandas en nombre de la persona.",
+        "Para observar y medir cómo se manifiestan determinadas condiciones en la práctica.",
+        "Para sustituir el diagnóstico por opiniones personales."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Para observar y medir cómo se manifiestan determinadas condiciones en la práctica."
+    },
+    {
+      "id": "cis-ut2-021",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué se entiende por necesidades sociales?",
+      "options": [
+        "Peticiones que siempre se expresan por escrito.",
+        "Recursos que solo se ofrecen a personas empleadas.",
+        "Preferencias personales sin relación con el bienestar.",
+        "Condiciones básicas que las personas requieren para vivir de manera segura y digna."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Condiciones básicas que las personas requieren para vivir de manera segura y digna."
+    },
+    {
+      "id": "cis-ut2-022",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Cuál es un ejemplo de necesidad social básica citado en la unidad?",
+      "options": [
+        "Alimentación y vivienda.",
+        "Publicidad y ocio comercial.",
+        "Prestigio profesional exclusivamente.",
+        "Acceso a redes sociales digitales."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Alimentación y vivienda."
+    },
+    {
+      "id": "cis-ut2-023",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué plantea la pirámide de Maslow sobre las necesidades?",
+      "options": [
+        "Las reduce a necesidades laborales.",
+        "Las organiza jerárquicamente desde las fisiológicas y de seguridad hasta afiliación, reconocimiento y autorrealización.",
+        "Las clasifica solo por el nivel de ingresos.",
+        "Las considera independientes y sin orden alguno."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Las organiza jerárquicamente desde las fisiológicas y de seguridad hasta afiliación, reconocimiento y autorrealización."
+    },
+    {
+      "id": "cis-ut2-024",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "Según el modelo vinculado a los derechos humanos, ¿qué tipo de necesidad se contempla?",
+      "options": [
+        "La pertenencia a una marca comercial.",
+        "La obtención de reconocimiento en redes sociales.",
+        "El acceso a servicios fundamentales como educación, agua potable, electricidad y salud.",
+        "La adquisición de bienes de lujo."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: El acceso a servicios fundamentales como educación, agua potable, electricidad y salud."
+    },
+    {
+      "id": "cis-ut2-025",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué entiende la unidad por demanda en la acción social?",
+      "options": [
+        "Una necesidad que el profesional nunca puede detectar.",
+        "Un indicador que mide exclusivamente ingresos.",
+        "Una intervención que se realiza sin contacto con la persona.",
+        "La forma en que una persona o colectivo expresa su voluntad de satisfacer necesidades o intereses y solicita apoyo."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: La forma en que una persona o colectivo expresa su voluntad de satisfacer necesidades o intereses y solicita apoyo."
+    },
+    {
+      "id": "cis-ut2-026",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué caracteriza a las demandas explícitas?",
+      "options": [
+        "Se formulan claramente y muestran conocimiento preciso de la necesidad o interés.",
+        "El profesional las detecta sin que la persona las manifieste.",
+        "La persona todavía no ha definido qué necesita.",
+        "No existe ninguna demanda ni solicitud."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Se formulan claramente y muestran conocimiento preciso de la necesidad o interés."
+    },
+    {
+      "id": "cis-ut2-027",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué caracteriza a las demandas implícitas?",
+      "options": [
+        "Son siempre solicitudes escritas y formales.",
+        "El profesional puede detectarlas aunque la persona no las manifieste o no quiera hacerlo.",
+        "La persona formula claramente y con precisión lo que solicita.",
+        "La demanda se encuentra totalmente definida por la persona."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: El profesional puede detectarlas aunque la persona no las manifieste o no quiera hacerlo."
+    },
+    {
+      "id": "cis-ut2-028",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué caracteriza a las demandas inespecíficas?",
+      "options": [
+        "El profesional detecta una necesidad no manifestada.",
+        "No existe relación de acompañamiento.",
+        "La persona aún está definiendo su demanda y necesita acompañamiento para identificar necesidades y expresarlas.",
+        "La persona expresa con claridad una petición concreta."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: La persona aún está definiendo su demanda y necesita acompañamiento para identificar necesidades y expresarlas."
+    },
+    {
+      "id": "cis-ut2-029",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué significa ausencia de demanda?",
+      "options": [
+        "Que no existen necesidades sociales.",
+        "Que la persona ha presentado una petición clara.",
+        "Que el profesional debe finalizar automáticamente la intervención.",
+        "Que la persona no ha formulado una demanda, aunque puede existir acompañamiento o actuación derivada de otro servicio."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Que la persona no ha formulado una demanda, aunque puede existir acompañamiento o actuación derivada de otro servicio."
+    },
+    {
+      "id": "cis-ut2-030",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "Una persona solicita claramente ayuda para encontrar vivienda. ¿Qué tipo de demanda es?",
+      "options": [
+        "Explícita.",
+        "Implícita.",
+        "Inespecífica.",
+        "Ausencia de demanda."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Explícita."
+    },
+    {
+      "id": "cis-ut2-031",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "El profesional detecta necesidades que la persona no ha expresado. ¿Qué tipo de demanda puede estar identificando?",
+      "options": [
+        "Ausencia de demanda.",
+        "Implícita.",
+        "Explícita.",
+        "Inespecífica."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Implícita."
+    },
+    {
+      "id": "cis-ut2-032",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "Una persona acude muy afectada y todavía no sabe concretar qué apoyo necesita. ¿Qué tipo de demanda presenta?",
+      "options": [
+        "Implícita.",
+        "Ausencia de demanda.",
+        "Inespecífica.",
+        "Explícita."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Inespecífica."
+    },
+    {
+      "id": "cis-ut2-033",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Por qué es importante diferenciar necesidades y demandas?",
+      "options": [
+        "Porque son conceptos idénticos y no requieren análisis.",
+        "Porque la demanda siempre sustituye a la necesidad.",
+        "Porque las necesidades solo se detectan mediante estadísticas.",
+        "Porque permite identificar lo que la persona necesita, lo que solicita y sus expectativas para orientar el diagnóstico y la planificación."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Porque permite identificar lo que la persona necesita, lo que solicita y sus expectativas para orientar el diagnóstico y la planificación."
+    },
+    {
+      "id": "cis-ut2-034",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué es la reinserción social?",
+      "options": [
+        "El proceso por el que una persona que ha experimentado exclusión recupera su participación plena en la sociedad.",
+        "La separación de una persona de los recursos comunitarios.",
+        "La incorporación a un espacio separado sin vínculos sociales.",
+        "La concesión automática de una prestación económica."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: El proceso por el que una persona que ha experimentado exclusión recupera su participación plena en la sociedad."
+    },
+    {
+      "id": "cis-ut2-035",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿A qué ámbitos puede afectar la reinserción social?",
+      "options": [
+        "Exclusivamente a la vivienda.",
+        "Económico, educativo, laboral, residencial y relacional.",
+        "Únicamente al ámbito penal.",
+        "Solo al ámbito educativo."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Económico, educativo, laboral, residencial y relacional."
+    },
+    {
+      "id": "cis-ut2-036",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿La reinserción social es un proceso automático y lineal?",
+      "options": [
+        "Sí, depende únicamente de la voluntad individual.",
+        "No, porque solo puede aplicarse a personas reclusas.",
+        "No, requiere intervenciones integrales adaptadas y eliminación de barreras.",
+        "Sí, se produce automáticamente al finalizar una condena."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: No, requiere intervenciones integrales adaptadas y eliminación de barreras."
+    },
+    {
+      "id": "cis-ut2-037",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿A qué colectivos puede dirigirse la reinserción social además de la población reclusa y exreclusa?",
+      "options": [
+        "Únicamente personas que nunca han sufrido exclusión.",
+        "Solo personas que cambian de empleo voluntariamente.",
+        "Exclusivamente personas jubiladas.",
+        "Personas que han estado ingresadas en centros psiquiátricos o de menores y personas que han vivido en la calle."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Personas que han estado ingresadas en centros psiquiátricos o de menores y personas que han vivido en la calle."
+    },
+    {
+      "id": "cis-ut2-038",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué finalidad tienen los programas de capacitación y educación en la reinserción?",
+      "options": [
+        "Mejorar habilidades y conocimientos para aumentar oportunidades de empleo y participación.",
+        "Sustituir las redes de apoyo comunitario.",
+        "Proporcionar exclusivamente alojamiento temporal.",
+        "Evitar que la persona participe en actividades formativas."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Mejorar habilidades y conocimientos para aumentar oportunidades de empleo y participación."
+    },
+    {
+      "id": "cis-ut2-039",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué puede aportar el apoyo psicológico y emocional en la reinserción?",
+      "options": [
+        "Evitar la reconstrucción de vínculos sociales.",
+        "Ayudar a superar traumas, desarrollar autoestima positiva y fortalecer habilidades de afrontamiento.",
+        "Garantizar un empleo de forma inmediata.",
+        "Sustituir el acceso a vivienda y educación."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Ayudar a superar traumas, desarrollar autoestima positiva y fortalecer habilidades de afrontamiento."
+    },
+    {
+      "id": "cis-ut2-040",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué finalidad tienen los programas de empleo y formación laboral?",
+      "options": [
+        "Sustituir todos los apoyos sociales por ayudas puntuales.",
+        "Ofrecer únicamente apoyo residencial.",
+        "Facilitar habilidades laborales, experiencia e ingresos estables y sostenibles.",
+        "Separar a las personas del mercado laboral."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Facilitar habilidades laborales, experiencia e ingresos estables y sostenibles."
+    },
+    {
+      "id": "cis-ut2-041",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué función cumplen las redes de apoyo comunitario en la reinserción?",
+      "options": [
+        "Aíslan a la persona de su comunidad.",
+        "Sustituyen la participación por asistencia institucional obligatoria.",
+        "Se limitan a proporcionar ayudas económicas.",
+        "Fomentan participación, integración y un entorno de apoyo y comprensión."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Fomentan participación, integración y un entorno de apoyo y comprensión."
+    },
+    {
+      "id": "cis-ut2-042",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué aportan los programas de vivienda y apoyo residencial?",
+      "options": [
+        "Acceso a viviendas asequibles y seguras y apoyos para reconstruir una base estable.",
+        "Únicamente formación profesional.",
+        "Solo atención sanitaria hospitalaria.",
+        "Exclusivamente actividades de ocio."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Acceso a viviendas asequibles y seguras y apoyos para reconstruir una base estable."
+    },
+    {
+      "id": "cis-ut2-043",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué enfoque deben tener las intervenciones de reinserción social?",
+      "options": [
+        "Centrado únicamente en controlar la conducta.",
+        "Integral y adaptado a las necesidades de cada persona.",
+        "Uniforme, sin valorar circunstancias individuales.",
+        "Limitado a un único ámbito de la vida."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Integral y adaptado a las necesidades de cada persona."
+    },
+    {
+      "id": "cis-ut2-044",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Cuál es el objetivo final de los mecanismos de reinserción social descritos?",
+      "options": [
+        "Evitar que recupere sus vínculos sociales.",
+        "Sustituir sus decisiones personales por decisiones institucionales.",
+        "Facilitar una vida socialmente incluida y una participación plena y satisfactoria.",
+        "Mantener a la persona dependiente de los recursos."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Facilitar una vida socialmente incluida y una participación plena y satisfactoria."
+    },
+    {
+      "id": "cis-ut2-045",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué relación existe entre la falta de acceso a necesidades básicas y la exclusión?",
+      "options": [
+        "No existe relación entre ambas situaciones.",
+        "Garantiza una mayor participación comunitaria.",
+        "Solo afecta a las preferencias de consumo.",
+        "Puede dejar a personas fuera de recursos y oportunidades y perpetuar pobreza y vulnerabilidad."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Puede dejar a personas fuera de recursos y oportunidades y perpetuar pobreza y vulnerabilidad."
+    },
+    {
+      "id": "cis-ut2-046",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué debe hacer el profesional para realizar un diagnóstico correcto de las demandas?",
+      "options": [
+        "Determinar y centrar las demandas, identificar necesidades y conocer expectativas.",
+        "Aceptar literalmente cualquier petición sin analizarla.",
+        "Sustituir la opinión de la persona por una decisión propia.",
+        "Evitar recoger información sobre el contexto."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: Determinar y centrar las demandas, identificar necesidades y conocer expectativas."
+    },
+    {
+      "id": "cis-ut2-047",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Cuál de estas opciones describe mejor la inclusión como enfoque social?",
+      "options": [
+        "Limitar la participación a quienes no necesitan apoyos.",
+        "Reconocer la diversidad como un valor y rediseñar entornos para asegurar acceso y participación.",
+        "Mantener circuitos separados para determinados colectivos.",
+        "Exigir que todas las personas se ajusten a un modelo único."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: Reconocer la diversidad como un valor y rediseñar entornos para asegurar acceso y participación."
+    },
+    {
+      "id": "cis-ut2-048",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué caracteriza el modelo inclusivo frente al modelo integrador?",
+      "options": [
+        "Organiza recursos en circuitos separados.",
+        "Considera la diversidad una excepción que debe corregirse.",
+        "Desplaza el foco hacia los entornos e instituciones, que deben transformarse para garantizar la participación.",
+        "Mantiene que la persona debe encajar en estructuras ya diseñadas."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: Desplaza el foco hacia los entornos e instituciones, que deben transformarse para garantizar la participación."
+    },
+    {
+      "id": "cis-ut2-049",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué puede ocurrir cuando una persona carece de acceso a educación, empleo, salud y vida comunitaria?",
+      "options": [
+        "Se encuentra necesariamente en una zona de inclusión.",
+        "Está participando plenamente en igualdad.",
+        "Se encuentra en una situación de integración plena.",
+        "Puede encontrarse en una situación de exclusión social."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: Puede encontrarse en una situación de exclusión social."
+    },
+    {
+      "id": "cis-ut2-050",
+      "unit": "Unidad 2 · Procesos de inclusión y exclusión social",
+      "question": "¿Qué aspecto debe considerar una política de inclusión ante varios ejes de desigualdad?",
+      "options": [
+        "La combinación de factores y cómo se influyen entre sí en cada situación.",
+        "Cada eje por separado, sin relacionarlo con los demás.",
+        "Únicamente el nivel de ingresos.",
+        "Solo la edad de la persona."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: La combinación de factores y cómo se influyen entre sí en cada situación."
+    }
+  ]
+}
