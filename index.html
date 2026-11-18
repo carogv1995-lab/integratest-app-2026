@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#8064a2">
+<title>IntegraTest</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f7f4fa;font-family:Arial,sans-serif;color:#30283a}
+header{background:#8064a2;color:white;padding:28px 20px;border-radius:0 0 25px 25px}
+header h1{margin:0;font-size:29px}
+header p{margin-bottom:0}
+main{padding:20px;max-width:650px;margin:auto}
+h2{font-size:21px}
+.subject{background:white;padding:19px;margin:12px 0;border-radius:16px;box-shadow:0 2px 9px #ddd;cursor:pointer}
+.subject strong{font-size:18px}
+.subject p{color:#777;margin-bottom:0}
+button{border:0;background:#8064a2;color:white;padding:14px 18px;border-radius:12px;font-size:16px;cursor:pointer;margin:5px 3px}
+button.secondary{background:#e9e0f1;color:#49375d}
+#content{background:white;padding:20px;border-radius:18px;margin-top:18px}
+small{color:#777}
+</style>
+</head>
+<body>
+<header>
+<h1>📚 IntegraTest</h1>
+<p>Tu academia de Integración Social</p>
+</header>
+<main>
+<div id="home">
+<h2>Mis asignaturas</h2>
+<div class="subject" onclick="openSubject('CIS')">
+<strong>📘 CIS</strong><p>Contexto de la Intervención Social</p>
+</div>
+<div class="subject" onclick="openSubject('MIS')">
+<strong>📗 MIS</strong><p>Metodología de la Intervención Social</p>
+</div>
+<div class="subject" onclick="openSubject('MED')">
+<strong>🤝 Mediación Comunitaria</strong><p>Unidades 1 y 2</p>
+</div>
+<div class="subject" onclick="openSubject('PAP')">
+<strong>💜 PAP</strong><p>Promoción de la Autonomía Personal</p>
+</div>
+<div class="subject" onclick="openSubject('AUC')">
+<strong>🏡 AUC</strong><p>Atención a Unidades de Convivencia</p>
+</div>
+<div id="content">
+<h2>Bienvenida a IntegraTest</h2>
+<p>Selecciona una asignatura para comenzar.</p>
+<small>Preparada para estudiar a tu ritmo.</small>
+</div>
+</div>
+</main>
+<script>
+function openSubject(subject){
+document.getElementById('content').innerHTML =
+'<h2>'+subject+'</h2>'+
+'<p>Asignatura seleccionada.</p>'+
+'<p>El banco de preguntas de esta asignatura se incorporará a partir de tus apuntes.</p>'+
+'<button onclick="alert(\'El banco de preguntas todavía está pendiente de incorporar.\')">Preparar test</button>'+
+'<button class="secondary" onclick="location.reload()">Volver</button>';
+}
+</script>
+</body>
+</html>
