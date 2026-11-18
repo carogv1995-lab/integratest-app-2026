@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#8064a2">
+<title>IntegraTest</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f7f4fa;color:#30283a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{background:linear-gradient(135deg,#8064a2,#e8dafa);padding:28px 20px 24px;border-radius:0 0 28px 28px}
+header h1{font-size:30px;margin:0 0 6px}header p{margin:0;color:#62576d}
+main{max-width:720px;margin:auto;padding:18px 14px 40px}.card{background:white;border:1px solid #eee7f4;border-radius:22px;padding:20px;margin:14px 0;box-shadow:0 5px 20px #38264a0b}
+h2{font-size:22px;margin:0 0 12px}.muted{color:#817889;line-height:1.45}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:16px}.stat{background:#faf7fd;border-radius:15px;padding:12px}.stat b{display:block;font-size:25px}
+.subject{width:100%;text-align:left;background:#fff;border:1px solid #e9e0f1;border-radius:17px;padding:16px;margin:7px 0;color:inherit;font-size:16px}.subject strong{font-size:18px}.pill{float:right;background:#f1eafd;color:#7050a2;padding:6px 10px;border-radius:30px;font-size:12px;font-weight:700}
+button{cursor:pointer;font:inherit}.primary{border:0;border-radius:14px;background:#8064a2;color:white;padding:13px 18px;font-weight:700}.secondary{border:0;border-radius:14px;background:#f1eafd;color:#49375d;padding:13px 18px;font-weight:700}
+.option{display:block;width:100%;text-align:left;background:#fff;border:1px solid #e8e0ef;border-radius:14px;padding:14px;margin:9px 0;color:#30283a}.option.selected{border:2px solid #8064a2;background:#f8f3ff}.option.correct{border-color:#2d9564;background:#effaf4}.option.wrong{border-color:#c44b58;background:#fff2f3}
+.topline{display:flex;justify-content:space-between;color:#776b83;font-weight:700;font-size:14px}.bar{height:8px;background:#eee8f3;border-radius:9px;margin:12px 0 20px;overflow:hidden}.bar span{display:block;height:100%;background:#8064a2;width:0}
+.hidden{display:none}.feedback{padding:12px;border-radius:12px;background:#f7f3fb;margin:14px 0;line-height:1.45}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+small{color:#82788c}
+</style>
+</head>
+<body>
+<header><h1>📚 IntegraTest</h1><p>Tu espacio de estudio · Integración Social</p></header>
+<main>
+<section id="home">
+<div class="card"><h2>¡Vamos a estudiar!</h2><p class="muted">Elige una asignatura. Tus resultados y fallos se guardan en este dispositivo.</p>
+<div class="stats"><div class="stat"><b id="answered">0</b><small>Respondidas</small></div><div class="stat"><b id="right">0</b><small>Aciertos</small></div><div class="stat"><b id="wrong">0</b><small>Fallos</small></div></div></div>
+<div class="card"><h2>Asignaturas</h2>
+<button class="subject" onclick="startCIS()"><strong>📘 CIS</strong><span class="pill">40 preguntas</span><br><small>Contexto de la Intervención Social · UT1 y UT2</small></button>
+<button class="subject" disabled><strong>📗 MIS</strong><span class="pill">En preparación</span><br><small>Metodología de la Intervención Social</small></button>
+<button class="subject" disabled><strong>🤝 Mediación Comunitaria</strong><span class="pill">En preparación</span><br><small>Unidades 1 y 2</small></button>
+<button class="subject" disabled><strong>💜 PAP</strong><span class="pill">En preparación</span><br><small>Promoción de la Autonomía Personal</small></button>
+<button class="subject" disabled><strong>🏡 AUC</strong><span class="pill">En preparación</span><br><small>Atención a Unidades de Convivencia</small></button>
+</div>
+<div class="card"><h2>Repasar mis fallos</h2><p class="muted">Repite las preguntas que hayas contestado mal.</p><button class="secondary" onclick="reviewErrors()">Repasar errores</button> <button class="secondary" onclick="clearStats()">Borrar estadísticas</button></div>
+</section>
+<section id="quiz" class="hidden">
+<div class="card"><div class="topline"><span id="subjectName">CIS · UT1 y UT2</span><span id="counter">1/10</span></div><div class="bar"><span id="progress"></span></div>
+<h2 id="question"></h2><div id="options"></div><div id="feedback" class="feedback hidden"></div>
+<div class="actions"><button id="check" class="primary" onclick="checkAnswer()">Comprobar</button><button id="next" class="primary hidden" onclick="nextQuestion()">Siguiente</button><button class="secondary" onclick="goHome()">Salir</button></div>
+</div></section>
+<section id="result" class="hidden"><div class="card"><h2>¡Test terminado!</h2><p id="resultText" class="muted"></p><div class="actions"><button class="primary" onclick="startCIS()">Repetir test</button><button class="secondary" onclick="goHome()">Volver al inicio</button></div></div></section>
+</main>
+<script>
+const questions=[
+  {
+    "u": "UT1",
+    "q": "¿Por qué es importante conocer la dinámica social antes de diseñar una intervención?",
+    "o": [
+      "Adaptarla al contexto y a las características de la comunidad",
+      "Aplicar siempre el mismo programa",
+      "Evitar conocer las relaciones del grupo",
+      "Sustituir los recursos comunitarios"
+    ],
+    "a": 0,
+    "e": "Adaptar la intervención al contexto es una de las razones señaladas en los apuntes."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué es la trayectoria de vida?",
+    "o": [
+      "La secuencia de acontecimientos vitales a lo largo de la existencia",
+      "Una etapa concreta de la infancia",
+      "El conjunto de normas de una institución",
+      "La historia laboral exclusivamente"
+    ],
+    "a": 0,
+    "e": "Se define como la secuencia completa de acontecimientos vitales de una persona."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué autor se relaciona en los apuntes con la modernidad líquida?",
+    "o": [
+      "Zygmunt Bauman",
+      "Robert Castel",
+      "Serge Moscovici",
+      "Abraham Maslow"
+    ],
+    "a": 0,
+    "e": "Los apuntes explican las transformaciones de las trayectorias vitales desde la modernidad líquida de Bauman."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué caracteriza a los vínculos en la sociedad líquida?",
+    "o": [
+      "Son frágiles, flexibles y cambiantes",
+      "Son siempre estables y permanentes",
+      "No se ven afectados por los cambios sociales",
+      "Desaparecen las relaciones afectivas"
+    ],
+    "a": 0,
+    "e": "Bauman describe vínculos sociales, laborales y afectivos más frágiles y cambiantes."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué significa resiliencia según la unidad?",
+    "o": [
+      "Capacidad para sobreponerse a circunstancias adversas y reconstruir proyectos de vida",
+      "Evitar cualquier cambio en la vida",
+      "Adaptarse sin recibir apoyo",
+      "No experimentar dificultades"
+    ],
+    "a": 0,
+    "e": "La resiliencia puede ser personal y comunitaria, y depende también de redes de apoyo y recursos."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué es la socialización?",
+    "o": [
+      "Incorporar normas, valores, creencias y formas de comportamiento",
+      "Aprender únicamente contenidos escolares",
+      "Un proceso exclusivamente biológico",
+      "Cumplir solo las normas laborales"
+    ],
+    "a": 0,
+    "e": "La socialización permite desenvolverse en la vida social y construir la identidad."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Cuál es el principal agente de socialización primaria?",
+    "o": [
+      "La familia",
+      "El trabajo",
+      "Las asociaciones",
+      "Los medios de comunicación"
+    ],
+    "a": 0,
+    "e": "La socialización primaria tiene lugar en la infancia, principalmente en la familia."
+  },
+  {
+    "u": "UT1",
+    "q": "¿En qué consiste la socialización secundaria?",
+    "o": [
+      "Aprender nuevos roles y normas al integrarse en instituciones como escuela o trabajo",
+      "Interiorizar los primeros valores durante la infancia",
+      "Adaptarse únicamente tras una situación de exclusión",
+      "Aprender normas exclusivamente en la familia"
+    ],
+    "a": 0,
+    "e": "Los apuntes la relacionan con la incorporación a instituciones como escuela, trabajo y asociaciones."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Cuándo aparece la socialización terciaria?",
+    "o": [
+      "Al adaptarse a nuevas realidades, como migración o reinserción social",
+      "Únicamente durante la infancia",
+      "Al aprender a hablar",
+      "Solo al comenzar la escolarización"
+    ],
+    "a": 0,
+    "e": "La unidad cita migración, reinserción social y adaptación a contextos de vulnerabilidad."
+  },
+  {
+    "u": "UT1",
+    "q": "Según los apuntes, la identidad personal…",
+    "o": [
+      "Se construye dinámicamente mediante experiencias e interacciones",
+      "Es fija desde el nacimiento",
+      "Depende únicamente de la genética",
+      "No está relacionada con la sociedad"
+    ],
+    "a": 0,
+    "e": "La identidad se forma mediante la interacción entre historia personal y contextos sociales."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué elemento de la identidad se refiere a lo que pensamos sobre nosotros mismos?",
+    "o": [
+      "Autoconcepto",
+      "Autoestima",
+      "Conducta",
+      "Rol social"
+    ],
+    "a": 0,
+    "e": "Los apuntes distinguen autoconcepto (lo que pensamos), autoestima (lo que sentimos) y conducta (lo que hacemos)."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Cuál es el componente afectivo de la conducta?",
+    "o": [
+      "Sentimientos y emociones",
+      "Creencias y conocimientos",
+      "Comportamientos observables",
+      "Normas institucionales"
+    ],
+    "a": 0,
+    "e": "El componente afectivo comprende sentimientos y emociones."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué es una actitud?",
+    "o": [
+      "Una disposición interna que modula la conducta",
+      "Una conducta observable y repetible",
+      "Una norma escrita por una institución",
+      "Una posición dentro de la estructura social"
+    ],
+    "a": 0,
+    "e": "La actitud es una orientación afectivo-emocional hacia algo o alguien que puede influir en la actuación."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué son los estereotipos?",
+    "o": [
+      "Creencias e ideas preconcebidas compartidas sobre un grupo",
+      "Comportamientos de rechazo hacia una persona",
+      "Valoraciones emocionales individuales sin creencias",
+      "Leyes que regulan la convivencia"
+    ],
+    "a": 0,
+    "e": "Los estereotipos tienen un componente cognitivo: simplifican, generalizan y clasifican."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué caracteriza principalmente al prejuicio?",
+    "o": [
+      "Una valoración emocional anticipada hacia personas o grupos",
+      "Una norma formal",
+      "Una conducta siempre positiva",
+      "Una institución social"
+    ],
+    "a": 0,
+    "e": "El prejuicio tiene un núcleo afectivo y suele basarse en estereotipos."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué es la discriminación en la relación entre estereotipo, prejuicio y discriminación?",
+    "o": [
+      "La manifestación conductual del prejuicio",
+      "Una idea preconcebida",
+      "Una emoción sin conducta",
+      "Un proceso de socialización primaria"
+    ],
+    "a": 0,
+    "e": "La discriminación se expresa en comportamientos de exclusión, rechazo o trato desigual."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué se entiende por estatus o posición social?",
+    "o": [
+      "La posición que ocupa una persona en la división social",
+      "El comportamiento esperado de una persona",
+      "Una regla informal",
+      "Una red de apoyo comunitario"
+    ],
+    "a": 0,
+    "e": "La división social se refiere a la posición o estatus que ocupa una persona."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué son los roles sociales?",
+    "o": [
+      "Comportamientos esperados relacionados con cada estatus",
+      "Las instituciones que organizan la sociedad",
+      "Los valores compartidos por una comunidad",
+      "Los recursos económicos de un grupo"
+    ],
+    "a": 0,
+    "e": "Cada estatus lleva responsabilidades y expectativas sobre cómo comportarse."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué diferencia hay entre estructura social y orden social?",
+    "o": [
+      "La estructura organiza relaciones y posiciones; el orden mantiene su estabilidad",
+      "Son dos nombres para el mismo concepto",
+      "El orden social reúne solo instituciones y la estructura solo leyes",
+      "La estructura social elimina las normas"
+    ],
+    "a": 0,
+    "e": "La estructura es el marco organizativo; el orden social regula la convivencia y sostiene la estabilidad."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué es la influencia social?",
+    "o": [
+      "El proceso por el que las personas modifican pensamientos, emociones o conductas por la interacción con otros",
+      "La capacidad de una persona para vivir aislada",
+      "La aplicación de sanciones legales exclusivamente",
+      "La distribución de recursos económicos"
+    ],
+    "a": 0,
+    "e": "La influencia social puede ser consciente o inconsciente y modificar pensamientos, emociones y conductas."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué es la conformidad?",
+    "o": [
+      "Cambiar el comportamiento o pensamiento para encajar en un grupo",
+      "Actuar porque una autoridad da una orden",
+      "Convencer mediante argumentos",
+      "Que una minoría influya en la mayoría"
+    ],
+    "a": 0,
+    "e": "La conformidad consiste en hacer o pensar como los demás para encajar."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué es la obediencia?",
+    "o": [
+      "Realizar algo porque una persona con autoridad lo ordena",
+      "Cambiar para parecerse al grupo",
+      "Convencer mediante publicidad",
+      "Participar en una asamblea vecinal"
+    ],
+    "a": 0,
+    "e": "La obediencia implica seguir órdenes de una figura de autoridad."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué nivel de cambio social afecta a instituciones, leyes o estructuras de un país?",
+    "o": [
+      "Macrosocial",
+      "Microsocial",
+      "Individual exclusivamente",
+      "Familiar únicamente"
+    ],
+    "a": 0,
+    "e": "El nivel macrosocial afecta a instituciones, leyes y estructuras de un país."
+  },
+  {
+    "u": "UT1",
+    "q": "Según Moscovici, ¿qué necesita una minoría para ejercer influencia?",
+    "o": [
+      "Consistencia, confianza y firmeza, y flexibilidad",
+      "Mayoría numérica y autoridad legal",
+      "Recursos económicos exclusivamente",
+      "Evitar cualquier negociación"
+    ],
+    "a": 0,
+    "e": "Los apuntes destacan consistencia, confianza y firmeza, y flexibilidad."
+  },
+  {
+    "u": "UT1",
+    "q": "¿Qué es la participación comunitaria?",
+    "o": [
+      "La acción colectiva para el desarrollo y mejora de una comunidad",
+      "La intervención individual en elecciones",
+      "La participación exclusiva en organizaciones estatales",
+      "La asistencia pasiva a actividades"
+    ],
+    "a": 0,
+    "e": "La participación comunitaria implica trabajo colectivo de los miembros de una comunidad."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué es la exclusión social?",
+    "o": [
+      "Quedar fuera de recursos, oportunidades y espacios básicos de participación",
+      "Acceder a recursos en espacios separados",
+      "Incorporarse a entornos comunes adaptándose al sistema",
+      "Modificar el entorno para eliminar barreras"
+    ],
+    "a": 0,
+    "e": "La exclusión implica falta de acceso efectivo a recursos y participación social."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué caracteriza a la segregación?",
+    "o": [
+      "Acceder a recursos en espacios separados o diferenciados",
+      "No tener ningún acceso a recursos",
+      "Participar plenamente en entornos comunes",
+      "Que el sistema elimine las barreras"
+    ],
+    "a": 0,
+    "e": "La segregación mantiene una separación que limita interacción y participación plena."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué ocurre en el modelo de integración descrito en los apuntes?",
+    "o": [
+      "La persona se incorpora a entornos comunes, pero debe adaptarse al sistema existente",
+      "El sistema cambia para eliminar todas las barreras",
+      "La persona queda totalmente fuera de los recursos",
+      "Se crean siempre espacios separados"
+    ],
+    "a": 0,
+    "e": "En la integración el acceso existe, pero la persona debe adaptarse a condiciones ya definidas."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué propone el enfoque de inclusión?",
+    "o": [
+      "Modificar los entornos para eliminar barreras y permitir la participación plena",
+      "Exigir que todas las personas se adapten sin apoyos",
+      "Separar a las personas según sus características",
+      "Limitar el acceso a servicios comunes"
+    ],
+    "a": 0,
+    "e": "La inclusión sitúa el cambio en el sistema y considera la diversidad un valor."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué caracteriza la zona de vulnerabilidad según Robert Castel?",
+    "o": [
+      "Empleo precario o temporal, ingresos inestables y redes frágiles",
+      "Empleo estable y seguridad económica",
+      "Desempleo crónico y vínculos muy débiles como rasgos definitorios",
+      "Participación plena y estabilidad"
+    ],
+    "a": 0,
+    "e": "La zona de vulnerabilidad o riesgo combina cierta participación con fragilidad económica y relacional."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué es un eje de desigualdad?",
+    "o": [
+      "Un aspecto transversal que puede aumentar la vulnerabilidad o el riesgo de exclusión",
+      "Una ayuda económica individual",
+      "Una fase de reinserción social",
+      "Una demanda explícita"
+    ],
+    "a": 0,
+    "e": "Los ejes de desigualdad pueden afectar a distintos ámbitos y aumentar el riesgo de exclusión."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué significa interseccionalidad?",
+    "o": [
+      "Que varios ejes de desigualdad se cruzan y generan experiencias específicas",
+      "Que cada desigualdad actúa de manera aislada",
+      "Que solo existe un factor de exclusión",
+      "Que todas las personas sufren las mismas barreras"
+    ],
+    "a": 0,
+    "e": "Los ejes se combinan y pueden generar situaciones más complejas que la suma de cada factor por separado."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué son los factores de riesgo?",
+    "o": [
+      "Condiciones que aumentan la probabilidad de sufrir exclusión social",
+      "Elementos que reducen el riesgo",
+      "Datos que miden resultados únicamente",
+      "Demandas formuladas por una persona"
+    ],
+    "a": 0,
+    "e": "Los factores de riesgo aumentan la probabilidad de exclusión."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué función tienen los factores de protección?",
+    "o": [
+      "Reducen el riesgo o amortiguan sus efectos",
+      "Aumentan la vulnerabilidad",
+      "Sustituyen las necesidades sociales",
+      "Impiden medir las situaciones"
+    ],
+    "a": 0,
+    "e": "Los factores de protección ayudan a reducir el riesgo o amortiguar sus consecuencias."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Para qué sirven los indicadores?",
+    "o": [
+      "Para observar y medir cómo se manifiestan las condiciones en la práctica",
+      "Para sustituir la intervención profesional",
+      "Para formular demandas implícitas",
+      "Para clasificar únicamente a las personas"
+    ],
+    "a": 0,
+    "e": "Los indicadores permiten observar y medir la manifestación práctica de las condiciones."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué plantea la pirámide de Maslow en relación con las necesidades?",
+    "o": [
+      "Una organización jerárquica desde necesidades básicas hasta superiores",
+      "Que todas las necesidades tienen idéntica prioridad",
+      "Que las necesidades dependen solo del empleo",
+      "Que las necesidades sociales no cambian"
+    ],
+    "a": 0,
+    "e": "Los apuntes señalan necesidades fisiológicas y de seguridad hasta afiliación, reconocimiento y autorrealización."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué es una demanda explícita?",
+    "o": [
+      "La que se formula claramente y expresa con precisión la necesidad o interés",
+      "La que el profesional detecta sin que se manifieste",
+      "La que todavía no está definida",
+      "La ausencia total de demanda"
+    ],
+    "a": 0,
+    "e": "Las demandas explícitas se expresan de manera clara y con conocimiento preciso de lo que se quiere satisfacer."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué es una demanda implícita?",
+    "o": [
+      "La que el profesional detecta aunque la persona no la manifieste o no quiera hacerlo",
+      "La que se formula de forma clara",
+      "La que se presenta siempre por escrito",
+      "La que procede exclusivamente de una institución"
+    ],
+    "a": 0,
+    "e": "El profesional interpreta mensajes e intereses subyacentes para identificar necesidades."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué caracteriza a una demanda inespecífica?",
+    "o": [
+      "La persona aún no ha definido claramente su demanda y necesita acompañamiento",
+      "La necesidad se expresa con total precisión",
+      "No existe ninguna necesidad",
+      "La demanda está siempre resuelta"
+    ],
+    "a": 0,
+    "e": "El profesional debe facilitar la comunicación para ayudar a identificar necesidades y expresarlas."
+  },
+  {
+    "u": "UT2",
+    "q": "¿Qué es la reinserción social?",
+    "o": [
+      "El proceso de recuperar la participación plena tras experiencias de exclusión",
+      "La separación de una persona de su comunidad",
+      "La adaptación exclusiva al mercado laboral",
+      "La concesión automática de una ayuda económica"
+    ],
+    "a": 0,
+    "e": "La reinserción implica reconstruir vínculos, reconocer derechos y adquirir recursos para participar plenamente."
+  }
+];
+let list=[],idx=0,selected=null,correct=0,wrong=0,review=false;
+let stats=JSON.parse(localStorage.getItem("integraStats")||'{"answered":0,"right":0,"wrong":0,"errors":[]}');
+function save(){localStorage.setItem("integraStats",JSON.stringify(stats));document.getElementById("answered").textContent=stats.answered;document.getElementById("right").textContent=stats.right;document.getElementById("wrong").textContent=stats.wrong}
+function show(id){["home","quiz","result"].forEach(x=>document.getElementById(x).classList.toggle("hidden",x!==id))}
+function goHome(){show("home");save()}
+function startCIS(){let n=prompt("¿Cuántas preguntas quieres hacer? Escribe 10, 20, 30 o 40.","10");if(n===null)return;n=Number(n);if(![10,20,30,40].includes(n)){alert("Elige 10, 20, 30 o 40.");return}list=questions.map((_,i)=>i).sort(()=>Math.random()-.5).slice(0,n);idx=0;correct=0;wrong=0;review=false;show("quiz");render()}
+function reviewErrors(){list=[...new Set(stats.errors)].filter(i=>questions[i]);if(!list.length){alert("¡Todavía no tienes fallos guardados!");return}idx=0;correct=0;wrong=0;review=true;show("quiz");render()}
+function render(){selected=null;let q=questions[list[idx]];document.getElementById("subjectName").textContent="CIS · "+q.u;document.getElementById("counter").textContent=(idx+1)+"/"+list.length;document.getElementById("progress").style.width=(idx/list.length*100)+"%";document.getElementById("question").textContent=q.q;document.getElementById("feedback").classList.add("hidden");document.getElementById("check").classList.remove("hidden");document.getElementById("next").classList.add("hidden");let box=document.getElementById("options");box.innerHTML="";q.o.forEach((v,i)=>{let b=document.createElement("button");b.className="option";b.textContent=String.fromCharCode(65+i)+". "+v;b.onclick=()=>{if(document.getElementById("next").classList.contains("hidden")){selected=i;[...box.children].forEach(x=>x.classList.remove("selected"));b.classList.add("selected")}};box.appendChild(b)})}
+function checkAnswer(){if(selected===null){alert("Selecciona una respuesta.");return}let q=questions[list[idx]],ok=selected===q.a;document.querySelectorAll(".option")[q.a].classList.add("correct");if(!ok)document.querySelectorAll(".option")[selected].classList.add("wrong");document.getElementById("feedback").textContent=(ok?"¡Correcto! ":"No es correcto. ")+q.e;document.getElementById("feedback").classList.remove("hidden");document.getElementById("check").classList.add("hidden");document.getElementById("next").classList.remove("hidden");if(ok)correct++;else{wrong++;if(!review&&!stats.errors.includes(list[idx]))stats.errors.push(list[idx])}if(!review){stats.answered++;if(ok)stats.right++;else stats.wrong++;save()}}
+function nextQuestion(){idx++;if(idx<list.length)render();else{show("result");document.getElementById("resultText").textContent=`Has conseguido ${correct} aciertos y ${wrong} fallos de ${list.length} preguntas.`;document.getElementById("progress").style.width="100%"}}
+function clearStats(){if(confirm("¿Quieres borrar tus estadísticas y fallos guardados?")){stats={answered:0,right:0,wrong:0,errors:[]};save()}}
+save();
+</script>
+</body></html>
